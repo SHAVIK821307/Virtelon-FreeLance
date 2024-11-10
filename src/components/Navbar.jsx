@@ -83,12 +83,10 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to="/services">
               <p className="px-4 py-2 rounded inline-block ">Services</p>
             </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/gallery">
-              <p className="px-4 py-2 rounded inline-block ">Gallery</p>
+            <NavLink onClick={() => setShowMenu(false)} to="/portfolio">
+              <p className="px-4 py-2 rounded inline-block ">Portfolio</p>
             </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/franchise">
-              <p className="px-4 py-2 rounded inline-block ">Franchise</p>
-            </NavLink>
+            
             <NavLink onClick={() => setShowMenu(false)} to="/contact">
               <p className="px-4 py-2 rounded inline-block ">Contact Us</p>
             </NavLink>

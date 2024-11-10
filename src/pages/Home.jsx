@@ -17,7 +17,7 @@ const Home = () => {
             backgroundBlendMode: "overlay",
           }}
         />
-      <div className="relative min-h-screen flex items-center">
+      <div className="relative  flex items-center">
         <div className="relative container mx-auto px-4 py-20 text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white">
             <span className="block">GET THE BEST</span>
