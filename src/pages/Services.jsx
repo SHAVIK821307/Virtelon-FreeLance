@@ -83,18 +83,7 @@ export default function Component() {
       desc: "We specialize in brand promotion strategies tailored to elevate your online presence.",
       img: brandService,
     },
-    {
-      topic1: "MUSIC",
-      topic2: "PRODUCTION",
-      desc: "Professional music production services delivering high-quality sound and creative compositions for any project.",
-      img: musicServices,
-    },
-    {
-      topic1: "SOUND",
-      topic2: "ENGINEERING",
-      desc: "Expert sound engineering services ensuring top-quality audio production and clarity for any project.",
-      img: soundServices,
-    },
+
     {
       topic1: "CUSTOMER SUPPORT",
       topic2: "EXECUTIVE",
@@ -103,7 +92,7 @@ export default function Component() {
     },
   ];
   return (
-    <section className="bg-zinc-900 px-4 py-4 md:py-16">
+    <section className="bg-zinc-900 px-4 py-4 md:py-12">
       <div className="container mx-auto max-w-6xl">
         {/* Header Section */}
         <div className="mb-16 text-center">
@@ -118,17 +107,16 @@ export default function Component() {
           <h2 className="mb-2 text-3xl font-bold tracking-tight text-white md:text-4xl">
             OUR COMPANY
           </h2>
-          <p className="text-2xl font-semibold text-cyan-400 md:text-3xl">
+          <p className="text-2xl font-semibold text-cyan-400 md:text-4xl">
             PREMIUM SERVICES
           </p>
         </div>
 
         {/* Services Grid */}
         <div className="grid gap-8 md:grid-cols-2 md:px-12">
-          {/* Website Development Card */}
+          {/* Card */}
           {dataArr.map((data, index) => {
             return (
-             
               <div
                 key={index}
                 className="relative border-2 border-white bg-transparent px-6 py-16 rounded-[24px] mb-12"
@@ -152,45 +140,13 @@ export default function Component() {
                   <button
                     variant="outline"
                     className="bg-[#40E0D0] hover:bg-[#3BC9BA] text-black font-semibold px-6 py-3 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
-                    >
+                  >
                     GET IN TOUCH
                   </button>
                 </div>
               </div>
-                   
             );
           })}
-
-          {/* App Development Card
-          <div className="border-2 border-white bg-transparent p-6 rounded-[24px]">
-            <div className="flex flex-col items-center space-y-4 p-0">
-              <div className="relative h-24 w-24 overflow-hidden rounded-full border-2 border-cyan-400">
-                <img
-                  src="/placeholder.svg"
-                  alt="App Development"
-                  width={96}
-                  height={96}
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-center text-xl font-bold text-cyan-400 md:text-2xl">
-                APP
-                <br />
-                DEVELOPMENT
-              </h3>
-              <p className="text-center text-white">
-                We excel in developing custom, responsive apps that deliver
-                outstanding performance and a seamless user experience on any
-                device.
-              </p>
-              <button
-                variant="outline"
-                className="mt-4 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-zinc-950"
-              >
-                GET IN TOUCH
-              </button>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>
