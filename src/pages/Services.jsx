@@ -100,8 +100,8 @@ export default function Component() {
             <img
               src={Servicesimg}
               alt="Developer illustration"
-              width={500}
-              className="object-contain"
+              
+              className="object-contain w-[280px] md:w-[500px]"
             />
           </div>
           <h2 className="mb-2 text-3xl font-bold tracking-tight text-white md:text-4xl">
