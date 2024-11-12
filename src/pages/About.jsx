@@ -18,7 +18,7 @@ const About = () => {
             <span className="text-cyan-400">ABOUT </span>
             <span>VIRTELON</span>
           </h2>
-          <p className="text-gray-200 leading-relaxed">
+          <p className="text-gray-200 leading-relaxed font-semibold">
             <span className="text-cyan-400">Virtelon</span> is dedicated to
             providing high-quality and innovative solutions across a broad range
             of digital services, including web development, UI/UX design, app
@@ -35,7 +35,7 @@ const About = () => {
             <span className="text-cyan-400">OUR </span>
             <span>MISSION</span>
           </h2>
-          <p className="text-gray-200 leading-relaxed">
+          <p className="text-gray-200 leading-relaxed font-semibold">
             At <span className="text-cyan-400">Virtelon</span>, our mission is
             to empower businesses to thrive in the digital age. We are dedicated
             to enhancing brand visibility, driving user engagement, and
@@ -52,7 +52,7 @@ const About = () => {
             <span className="text-cyan-400">OUR </span>
             <span>VISION</span>
           </h2>
-          <p className="text-gray-200 leading-relaxed">
+          <p className="text-gray-200 leading-relaxed font-semibold">
             We aspire to establish ourselves as the premier digital solutions
             provider for businesses on a global scale. Our vision is to create
             enduring partnerships characterized by trust, integrity, and mutual
@@ -68,7 +68,7 @@ const About = () => {
             <span className="text-cyan-400">OUR </span>
             <span>STRATEGY</span>
           </h2>
-          <p className="text-gray-200 leading-relaxed">
+          <p className="text-gray-200 leading-relaxed font-semibold">
             At <span className="text-cyan-400">Virtelon</span>, we believe in a
             client-centric approach that prioritizes collaboration,
             communication, and transparency. By working closely with each

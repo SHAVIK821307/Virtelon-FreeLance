@@ -20,7 +20,7 @@ const Home = () => {
             <span className="block">GET THE BEST</span>
             <span className="block">for your projects</span>
           </h1>
-          <div className="max-w-3xl mx-auto space-y-6">
+          <div className="max-w-3xl font-semibold mx-auto space-y-6">
             <p className="text-base sm:text-lg md:text-xl text-gray-300">
               AT VIRTELON, WE ARE YOUR ONE-STOP SOLUTION FOR ALL TECHNOLOGICAL
               SERVICES REQUIRED FOR YOUR UPCOMING PROJECTS.
