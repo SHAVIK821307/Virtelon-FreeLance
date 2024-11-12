@@ -73,7 +73,7 @@ export default function Component() {
     },
     {
       topic1: "TROUBLESHOOTING",
-      topic2: "",
+      topic2: " ",
       desc: "We specialize in troubleshooting services to quickly identify and resolve issues with your website or digital platforms.",
       img: troubleServices,
     },
@@ -124,15 +124,16 @@ export default function Component() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-2 md:px-12">
           {/* Website Development Card */}
           {dataArr.map((data, index) => {
             return (
+             
               <div
                 key={index}
                 className="relative border-2 border-white bg-transparent px-6 py-16 rounded-[24px] mb-12"
               >
-                <div className="flex flex-col items-center space-y-4 p-0">
+                <div className="flex flex-col items-center h-full justify-between  space-y-4 p-0">
                   <div className="absolute top-[-15%]  h-24 w-24 overflow-hidden rounded-full border-2 border-cyan-400">
                     <img
                       src={data.img}
@@ -151,11 +152,12 @@ export default function Component() {
                   <button
                     variant="outline"
                     className="bg-[#40E0D0] hover:bg-[#3BC9BA] text-black font-semibold px-6 py-3 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105"
-                  >
+                    >
                     GET IN TOUCH
                   </button>
                 </div>
               </div>
+                   
             );
           })}
 
