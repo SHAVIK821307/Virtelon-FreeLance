@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat z-[-12]"
+        className="absolute min-h-screen inset-0 bg-cover bg-center bg-no-repeat z-[-12]"
         style={{
           backgroundImage: `url(${heropng})`,
           backgroundColor: "rgba(0, 0, 0, 0.6)",
