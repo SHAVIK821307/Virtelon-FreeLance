@@ -92,7 +92,7 @@ export default function Component() {
     },
   ];
   return (
-    <section className="bg-zinc-900 px-4 py-4 md:py-12">
+    <section className="bg-zinc-900 px-4 py-4 md:py-12 overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         {/* Header Section */}
         <div
