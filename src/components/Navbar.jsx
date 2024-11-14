@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full flex bg-transparent items-center justify-between text-sm py-4 px-2 sm:px-[2%] text-white  ">
-        <div className="flex items-center">
+        <div className="flex items-center" data-aos="fade-right" data-aos-duration="700">
           <img
             onClick={() => navigate("/")}
             className="w-10 h-auto cursor-pointer"

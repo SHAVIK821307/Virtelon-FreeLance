@@ -2,7 +2,11 @@ import React from "react";
 import logo from "../assets/logo.png";
 const Footer = () => {
   return (
-    <div className="bg-[#434343] text-white py-12">
+    <div
+      className="bg-[#434343] text-white py-12"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className="container mx-auto px-10">
         <div className="flex flex-col md:flex-row justify-between items-start mb-8">
           {/* Left Section */}

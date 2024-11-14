@@ -95,13 +95,16 @@ export default function Component() {
     <section className="bg-zinc-900 px-4 py-4 md:py-12">
       <div className="container mx-auto max-w-6xl">
         {/* Header Section */}
-        <div className="mb-16 text-center">
+        <div
+          className="mb-16 text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="mb-8 flex justify-center">
             <img
               src={Servicesimg}
               alt="Developer illustration"
-              
-              className="object-contain w-[280px] md:w-[500px]"
+              className="object-contain w-[280px] md:w-[500px] "
             />
           </div>
           <h2 className="mb-2 text-3xl font-bold tracking-tight text-white md:text-4xl">
@@ -119,7 +122,10 @@ export default function Component() {
             return (
               <div
                 key={index}
-                className="relative border-2 border-white bg-transparent px-6 py-16 rounded-[24px] mb-12"
+                className={`relative border-2 border-white bg-transparent px-6 py-16 rounded-[24px] mb-12  `}
+                data-aos={index % 2 == 0 ? "fade-right" : "fade-left"}
+                data-aos-duration="1000"
+                data-aos-offset="200"
               >
                 <div className="flex flex-col items-center h-full justify-between  space-y-4 p-0">
                   <div className="absolute top-[-15%]  h-24 w-24 overflow-hidden rounded-full border-2 border-cyan-400">
@@ -128,7 +134,7 @@ export default function Component() {
                       alt="Website Development"
                       width={96}
                       height={96}
-                      className="object-cover"
+                      className="object-cover "
                     />
                   </div>
                   <h3 className="text-center text-2xl font-bold text-cyan-400 md:text-2xl">
